@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000;
+   
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+header{
+    background-color: aqua;
+    text-align: center;
+    color: #ffff;
+    padding: 10px;
+    
+}
+.titulo{
+    font-size: 26px;
+    text-transform: uppercase;
+
+}
