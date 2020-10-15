@@ -63,6 +63,54 @@ select{
     appearance: none;
     background-image: url(../assets/arrow.jpg);
     background-repeat: no-repeat;
-    background-position: calc(100% - 10px) center;
-    
+    background-position: calc(100% - 10px) center;   
 }
+footer{
+    background-color: #202121;
+    padding: 40px;
+    text-align: center;
+}
+.imagem{
+    width: 160px;
+}
+.descrição{
+    color: #ffff;
+    display: inline-block;
+    max-width: 40%;
+    margin-left: 40px;
+    text-align: left;
+    /* border: 1px solid white; */
+
+}
+.descrição h3, .descrição p{
+    margin-bottom: 20px;
+}
+.descrição h3{
+    font-size: 24px;
+}
+@media(max-width:400px){
+    .formContainer{
+        float: none;
+        max-width: 290px;    
+        margin: auto;   
+    }
+    footer .imagem{
+        
+        width: 270px;
+        margin: auto;
+    }
+    footer .descrição{
+        display: inline-block;
+        max-width: 250px;
+        margin-left: 0;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .descrição h3{
+        font-size: 30px;
+    }
+    .descrição p{
+        font-size: 20px;
+    }
+}
+
